@@ -1,3 +1,11 @@
+/* Screen Space Outline Shader
+
+   This shader must be applied to a 2x2 Quad Mesh. Recommended to set the extra
+   cull margin on the Quad Mesh to the max value.
+
+   Pixels that are detected as edges will be colored the outline_color.
+*/
+
 shader_type spatial;
 render_mode unshaded;
 
